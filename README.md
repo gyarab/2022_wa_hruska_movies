@@ -16,5 +16,5 @@
     $ cd gamdb
     $ python manage.py runserver
 
-#### 6. pokud tam nebude rakeťák, tak máš zapnutý darkreader nebo je tento návod ztráta času
+#### 6. pokud tam nebude rakeťák, tak máš zapnutý darkreader jinak je tento návod ztráta času
 ---
