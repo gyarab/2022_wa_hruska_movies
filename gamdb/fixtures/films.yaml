@@ -1,1 +1,108 @@
-[]
+- model: films.movie
+  pk: 1
+  fields:
+    name: Vykoupen� z v�znice Shawshank
+    year: 1994
+    descriptiom: 9,2 stars
+    director: null
+    genres: []
+- model: films.movie
+  pk: 2
+  fields:
+    name: Kmotr
+    year: 1972
+    descriptiom: 9,2 stars
+    director: null
+    genres: []
+- model: films.movie
+  pk: 3
+  fields:
+    name: Temn� ryt��
+    year: 2008
+    descriptiom: 9 stars
+    director: null
+    genres: []
+- model: films.movie
+  pk: 4
+  fields:
+    name: Kmotr II
+    year: 1974
+    descriptiom: 9 stars
+    director: null
+    genres: []
+- model: films.movie
+  pk: 5
+  fields:
+    name: Dvan�ct rozhn�van�ch mu��
+    year: 1957
+    descriptiom: 9 stars
+    director: null
+    genres: []
+- model: films.movie
+  pk: 6
+  fields:
+    name: Schindler�v seznam
+    year: 1993
+    descriptiom: 8,9 stars
+    director: null
+    genres: []
+- model: films.movie
+  pk: 7
+  fields:
+    name: 'P�n prsten�: N�vrat kr�le'
+    year: 2003
+    descriptiom: 8,9 stars a je to zlobiv� af
+    director: null
+    genres: []
+- model: films.movie
+  pk: 8
+  fields:
+    name: 'Pulp Fiction: Historky z podsv�t�'
+    year: 1994
+    descriptiom: Miluju random filmy
+    director: null
+    genres: []
+- model: films.movie
+  pk: 9
+  fields:
+    name: 'P�n prsten�: Spole�enstvo prstenu'
+    year: 2001
+    descriptiom: Zlobiv� part 2
+    director: null
+    genres: []
+- model: films.movie
+  pk: 10
+  fields:
+    name: Hodn�, Zl� a O�kliv�
+    year: 1966
+    descriptiom: Idk cotoe
+    director: null
+    genres: []
+- model: films.movie
+  pk: 11
+  fields:
+    name: Hv�zdn� v�lky
+    year: 1976
+    descriptiom: �torek praporek
+    director: null
+    genres: []
+- model: films.director
+  pk: 1
+  fields:
+    name: Steven Spielberg
+    birth_year: 1946
+- model: films.director
+  pk: 2
+  fields:
+    name: Martin Scorsese
+    birth_year: 1942
+- model: films.director
+  pk: 3
+  fields:
+    name: Alfred Hitchcock
+    birth_year: 1899
+- model: films.director
+  pk: 4
+  fields:
+    name: James Cameron
+    birth_year: 1954
