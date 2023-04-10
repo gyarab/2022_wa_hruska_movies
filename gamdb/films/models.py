@@ -3,7 +3,7 @@ from django.db import models
 class Movie(models.Model):
         name = models.CharField(max_length=200)
         year = models.IntegerField(blank=True)
-        descriptiom = models.TextField()
+        description = models.TextField()
         director = models.ForeignKey('Director', blank=True, null=True, on_delete=models.SET_NULL)
         genres = models.ManyToManyField('Genre', blank=True, null=True)
 
