@@ -1,18 +1,20 @@
 from django.shortcuts import render
 from .models import Movie, Director
 
-# Create your views here.
+def directors(request):
+    context = {
+        'logic': True,
+        'Title': "Režiséři",
+        'directors': Director.objects.all()
+    }
+    print(context)
+    return render(request, 'directors.html', context)
+
 
 def homepage(request):
     context = {
-        "Title": "Films",
+        "Title": "Filmy",
         "movies": Movie.objects.all()
     }
-    return render(request, "main.html", context)
 
-def directors(request):
-    context = {
-        "Title": "Režiséři",
-        "directors": Director.objects.all()
-    }
-    return render(request, "directors.html", context)
+    return render(request, 'main.html', context)
