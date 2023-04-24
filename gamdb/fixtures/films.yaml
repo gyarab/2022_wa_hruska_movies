@@ -3,7 +3,7 @@
   fields:
     name: Vykoupen� z v�znice Shawshank
     year: 1994
-    descriptiom: 9,2 stars
+    description: 9,2 stars
     director: null
     genres: []
 - model: films.movie
@@ -11,7 +11,7 @@
   fields:
     name: Kmotr
     year: 1972
-    descriptiom: 9,2 stars
+    description: 9,2 stars
     director: null
     genres: []
 - model: films.movie
@@ -19,7 +19,7 @@
   fields:
     name: Temn� ryt��
     year: 2008
-    descriptiom: 9 stars
+    description: 9 stars
     director: null
     genres: []
 - model: films.movie
@@ -27,7 +27,7 @@
   fields:
     name: Kmotr II
     year: 1974
-    descriptiom: 9 stars
+    description: 9 stars
     director: null
     genres: []
 - model: films.movie
@@ -35,7 +35,7 @@
   fields:
     name: Dvan�ct rozhn�van�ch mu��
     year: 1957
-    descriptiom: 9 stars
+    description: 9 stars
     director: null
     genres: []
 - model: films.movie
@@ -43,7 +43,7 @@
   fields:
     name: Schindler�v seznam
     year: 1993
-    descriptiom: 8,9 stars
+    description: 8,9 stars
     director: null
     genres: []
 - model: films.movie
@@ -51,7 +51,7 @@
   fields:
     name: 'P�n prsten�: N�vrat kr�le'
     year: 2003
-    descriptiom: 8,9 stars a je to zlobiv� af
+    description: 8,9 stars a je to zlobiv� af
     director: null
     genres: []
 - model: films.movie
@@ -59,7 +59,7 @@
   fields:
     name: 'Pulp Fiction: Historky z podsv�t�'
     year: 1994
-    descriptiom: Miluju random filmy
+    description: Miluju random filmy
     director: null
     genres: []
 - model: films.movie
@@ -67,7 +67,7 @@
   fields:
     name: 'P�n prsten�: Spole�enstvo prstenu'
     year: 2001
-    descriptiom: Zlobiv� part 2
+    description: Zlobiv� part 2
     director: null
     genres: []
 - model: films.movie
@@ -75,7 +75,7 @@
   fields:
     name: Hodn�, Zl� a O�kliv�
     year: 1966
-    descriptiom: Idk cotoe
+    description: Idk cotoe
     director: null
     genres: []
 - model: films.movie
@@ -83,7 +83,7 @@
   fields:
     name: Hv�zdn� v�lky
     year: 1976
-    descriptiom: �torek praporek
+    description: �torek praporek
     director: null
     genres: []
 - model: films.director

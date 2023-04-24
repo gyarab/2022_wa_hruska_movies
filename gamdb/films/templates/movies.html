@@ -1,29 +1,26 @@
 {% extends 'main.html' %}
 
+
+{% block title %}
+    Filmy | {{ block.super }}
+{% endblock %}
+
 {% block content %}
-<div class="container">
-  <h1>{{Title}}</h1>
-  <div class="row row-cols-2">
+<body>
+  <div class="container">
+    <h1>{{Title}}</h1>
+    <div class="row row-cols-2">
       {% for m in movies %}
       <div class="card col" style="width: 18rem;">
         <div class="card-body">
           <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
-            <h5 class="card-title">{{m.name}} ({{m.year}})</h5>
-            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Neklikat</a>
-            <p class="card-text">{{m.description}}</p>
+          <h5 class="card-title">{{movie.name}}</h5>
+          <p class="card-text ">{{ movie.description }}</p>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Neklikat</a>
         </div>
       </div>
       {% endfor %}
+    </div>
   </div>
-</div>
 {% endblock %}
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-</body>
-<style>
-  h1 {
-    display: flex;
-    justify-content: center;
-    margin: 15px;
-    text-decoration-color: pink;
-  }
-</style>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
