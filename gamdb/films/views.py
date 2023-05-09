@@ -1,5 +1,7 @@
 from django.shortcuts import render
-from .models import Movie, Director, Actor, Genre
+from .models import Movie, Director, Actor, Genre, Comment
+
+from .forms import CommentForm
 
 def directors(request):
     context = {
@@ -34,13 +36,36 @@ def movies(request):
 
     context = {
         "Title": "Filmy",
-        "movies": movie_querystring
+        "movies": movie_querystring,
+        "genres": Genre.objects.all().order_by("name"),
+        "genre": genre
     }
     return render(request, 'movies.html', context)
 
 def movie(request, id):
+    m = Movie.objects.get(id=id)
+    f = CommentForm()
+
+    if request.POST:
+        f = CommentForm(request.POST)
+        if f.is_valid():
+            # ulozit do DB
+            c = Comment(
+                movie=m,
+                author=f.cleaned_data.get('author'),
+                text=f.cleaned_data.get('text'),
+                rating=f.cleaned_data.get('rating'),
+            )
+            if not c.author:
+                c.author = 'Anonym'
+            c.save()
+            # nastavit prazdny form
+            f = CommentForm()
+
     context = {
-        "movie": Movie.objects.get(id=id)
+        "movie": m,
+        "comments": Comment.objects.filter(movie=m).order_by('-created_at'),
+        "form": f
     }
     return render(request, 'movie.html', context)
 

@@ -6,6 +6,6 @@
 
 {% block content %}
 <h1>{{director.name}}</h1>
-<h2>{{director.birth_year}}</h2>
-<p>{{ director.description|safe }}</p>
+<h2>datum narození: {{director.birth_year}}</h2>
+<p>popis: {{ director.description|safe }}</p>
 {% endblock content %}

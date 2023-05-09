@@ -38,6 +38,7 @@ class Actor(models.Model):
         return f"{self.name} ({self.birth_year})"
     
 class Comment(models.Model):
+    movie = models.ForeignKey(Movie, on_delete=models.CASCADE)
     author = models.CharField(max_length=255)
     text = models.TextField()
     rating = models.IntegerField()
