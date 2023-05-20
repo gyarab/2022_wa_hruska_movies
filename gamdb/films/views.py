@@ -1,6 +1,5 @@
 from django.db.models import Q
 from django.shortcuts import render
-from django.http import HttpResponse
 from .models import Movie, Director, Actor, Genre, Comment
 
 from .forms import CommentForm
@@ -11,7 +10,6 @@ def directors(request):
         'Title': "Režiséři",
         'directors': Director.objects.all()
     }
-    print(context)
     return render(request, 'directors.html', context)
 
 def director(request, id):

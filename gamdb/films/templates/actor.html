@@ -5,8 +5,13 @@
 {% endblock %}
 
 {% block content %}
-<h1>{{actor.name}}</h1>
-<h2>datum narození: {{actor.birth_year}}</h2>
-<img src="{% if actor.photo_url %}{{actor.photo_url}}{% else %}https://place-hold.it/180x100/{% endif %}" alt="Card image cap">
-<p>popis: {{ actor.description|safe }}</p>
+<div class="container" style="margin-bottom: 35px;">
+    <h1>{{actor.name}}</h1>
+    <h2>datum narození: {{actor.birth_year}}</h2>
+</div>
+<div class="container row-cols-2" style="display:flex; flex-direction: row;"> 
+    <img src="{% if actor.photo_url %}{{actor.photo_url}}{% else %}https://place-hold.it/180x100/{% endif %}" alt="Card image cap"
+    style="display: block;max-width: 500px;max-height: 350px;width: auto;height: auto; margin-right: 30px;">
+    <p>{{ actor.description|safe }}</p>
+</div>    
 {% endblock content %}
