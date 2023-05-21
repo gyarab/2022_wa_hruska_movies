@@ -31,15 +31,17 @@
 
     <div class="row row-cols-1  row-cols-md-2 row-cols-lg-3 g-2">
       {% for m in movies %}
-      <div class="card col" style="width: 18rem;">
+      <div class="card" style="width: 18rem;">
+        <div class="card-header">
+          <h5 class="card-title">{{m.name}}</h5>
+        </div>
         <div class="card-body">
-          <img src="{% if movie.image_url %}{{movie.image_url}}{% else %}https://place-hold.it/180x100/{% endif %}" alt="...">
-          <h5 class="card-title">{{movie.name}}</h5>
-          {% for g in genres %}
-            {{ g.name }}
-          {% endfor %}
-          <p class="card-text ">{{ movie.description }}</p>
-          <a href="{% url 'movie' m.id %}" rel="noopener noreferrer" class="btn btn-primary">Neklikat</a>
+          <img src="{% if m.image_url %}{{m.image_url}}{% else %}https://place-hold.it/500x350/{% endif %}" alt="Card image cap"
+          style="display: block;max-width: 250px;max-height: 300px;width: auto;height: auto;">
+          <p class="card-text ">{{ m.description }}</p>
+        </div>
+        <div class="card-footer">
+          <a href="{% url 'movie' m.id %}" rel="noopener noreferrer" class="btn btn-primary">Detail</a>
         </div>
       </div>
       {% endfor %}

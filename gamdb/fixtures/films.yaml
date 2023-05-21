@@ -4,121 +4,202 @@
     name: Vykoupení z věznice Shawshank
     year: 1994
     slug: '99'
-    description: 9,2 stars
+    description: Mladý bankéř Andy Dufresne (Tim Robbins) je v roce 1947 odsouzen
+      za vraždu své ženy a jejího milence. Přesto, že tento čin popírá, čeká na něj
+      dvojnásobný doživotní trest v obávané věznici Shawshank.
     avg_rating: null
     image_url: //image.pmgstatic.com/cache/resized/w140/files/images/film/posters/162/505/162505167_735db9.jpg
     director: 6
-    genres: []
+    genres:
+    - 4
+    - 9
 - model: films.movie
   pk: 2
   fields:
     name: Kmotr
     year: 1972
     slug: '29'
-    description: 9,2 stars
+    description: Gangsterské drama Kmotr, natočené podle stejnojmenného bestselleru
+      Maria Puza, patří mezi přelomová díla tzv. Nového Hollywoodu, a to jak komerčně,
+      tak umělecky.
     avg_rating: null
     image_url: //image.pmgstatic.com/cache/resized/w140/files/images/film/posters/162/362/162362236_a2f3bc.jpg
     director: 7
-    genres: []
+    genres:
+    - 4
+    - 9
 - model: films.movie
   pk: 3
   fields:
     name: Temný rytíř
     year: 2008
     slug: '27'
-    description: 9 stars
+    description: Další Batmanovo dobrodružství začíná. Jeho protivníkem je tentokrát
+      záhadný psychopat Joker. Vítanou posilou by se Batmanovi mohl stát nový státní
+      zástupce Harvey Dent, idealistický právník odhodlaný bojovat zejména proti mafiím
+      ovládajícím podsvětí města.
     avg_rating: null
     image_url: //image.pmgstatic.com/cache/resized/w140/files/images/film/posters/000/071/71968_2c8b23.jpg
     director: 8
-    genres: []
+    genres:
+    - 4
+    - 6
+    - 9
 - model: films.movie
   pk: 4
   fields:
     name: Kmotr II
     year: 1974
     slug: '26'
-    description: 9 stars
+    description: Jsme větší než U. S. Steel. Al Pacino a Robert De Niro v hlavních
+      rolích pokračování slavné mafiánské ságy, oceněné šesti Oscary... Mimořádný
+      úspěch Kmotra (1972) ve světových kinech logicky vedl k okamžitým úvahám o natočení
+      pokračování, k němuž koneckonců vybízel i relativně otevřený konec originálu.
     avg_rating: null
     image_url: //image.pmgstatic.com/cache/resized/w140/files/images/film/posters/162/362/162362237_7577f9.jpg
     director: 7
-    genres: []
+    genres:
+    - 4
+    - 9
 - model: films.movie
   pk: 5
   fields:
     name: Dvanáct rozhněvaných mužů
     year: 1957
     slug: '26'
-    description: 9 stars
+    description: Dvanáct porotců má jednomyslně rozhodnout o vině či nevině mladého
+      muže, který je obviněn z vraždy svého otce. Porotci jsou průměrní Američané
+      s obyčejnými zájmy a zaměstnáním.
     avg_rating: null
     image_url: https://image.pmgstatic.com/cache/resized/w140/files/images/film/posters/160/422/160422509_e42e9b.jpg
     director: 9
-    genres: []
+    genres:
+    - 4
+    - 9
 - model: films.movie
   pk: 6
   fields:
     name: Schindlerův seznam
     year: 1993
     slug: '25'
-    description: 8,9 stars
+    description: Hluboce šokující, nemilosrdné drama o noční můře holocaustu, založené
+      na skutečných událostech. Na záchranu 1100 životů obětoval Oskar Schindler veškeré
+      své jmění... Polský Krakov 1939. Židovská obec je vystavována stále se zvyšujícímu
+      tlaku ze strany nacistů.
     avg_rating: null
     image_url: //image.pmgstatic.com/cache/resized/w140/files/images/film/posters/163/153/163153410_9a7943.png
     director: 1
-    genres: []
+    genres:
+    - 4
 - model: films.movie
   pk: 7
   fields:
     name: 'Pán prstenů: Návrat krále'
     year: 2003
     slug: '24'
-    description: 8,9 stars a je to zlobivý af
+    description: Nadchází čas rozhodující bitvy o přežití Středozemě. Putování jednotlivých
+      členů Společenstva prstenu se dostává do poslední a rozhodující fáze. Čaroděj
+      Gandalf, elf Legolas a trpaslík Gimli spěchají s dědicem trůnu Aragornem na
+      pomoc zemi Gondor, která odolává ohromnému Sauronovu vojsku.
     avg_rating: null
     image_url: //image.pmgstatic.com/cache/resized/w140/files/images/film/posters/158/600/158600814_9bc57f.jpg
     director: 10
-    genres: []
+    genres:
+    - 8
 - model: films.movie
   pk: 8
   fields:
     name: 'Pulp Fiction: Historky z podsvětí'
     year: 1994
     slug: '23'
-    description: Miluju random filmy
+    description: Nejkultovnější z kultovních filmů 90. let je autorskou Biblí Quentina
+      Tarantina, který v tomto opusu definoval základní prvky své režisérské poetiky
+      a vytvořil dílo rozněcující náročné kritiky na festivalu v Cannes, levicové
+      a pravicové intelektuály i zedníky dopřávající si po těžké šichtě trochu oddychu.
     avg_rating: null
     image_url: //image.pmgstatic.com/cache/resized/w140/files/images/film/posters/158/336/158336635_61bc7c.jpg
     director: 11
-    genres: []
+    genres:
+    - 4
+    - 9
 - model: films.movie
   pk: 9
   fields:
     name: 'Pán prstenů: Společenstvo prstenu'
     year: 2001
     slug: '22'
-    description: Zlobivý part 2
+    description: V dávných dobách byl vykován kouzelný prsten, který vlastnil pán
+      Mordoru Sauron. Jeho moc začal využívat k šíření zla, ale o prsten nakonec v
+      boji přišel, a ten na dlouhá léta zmizel. Nakonec ho našel hobit Bilbo Pytlík,
+      který díky němu přestal stárnout.
     avg_rating: null
     image_url: //image.pmgstatic.com/cache/resized/w140/files/images/film/posters/158/600/158600806_7b6c15.jpg
     director: 10
-    genres: []
+    genres:
+    - 8
 - model: films.movie
   pk: 10
   fields:
     name: Hodný, Zlý a Ošklivý
     year: 1966
     slug: '21'
-    description: Idk cotoe
+    description: Hodný, zlý a ošklivý je klasickým westernovým příběhem o chamtivosti
+      a pomstě uprostřed běsnění občanské války Severu proti Jihu. Podvodník, desperát
+      a ošklivec Tuco (Eli Wallach) je hledaný ve čtrnácti okresech a na jeho hlavu
+      je vypsaná odměna dvou tisíc dolarů.
     avg_rating: null
     image_url: //image.pmgstatic.com/cache/resized/w140/files/images/film/posters/000/005/5426_0095df.jpg
     director: 12
-    genres: []
+    genres:
+    - 7
 - model: films.movie
   pk: 11
   fields:
     name: Hvězdné války
     year: 1976
     slug: '19'
-    description: štorek praporek
+    description: Star Wars (česky původně též Hvězdné války) je americká multimediální
+      franšíza žánru space opera, vytvořená Georgem Lucasem. Její hlavní částí je
+      devítidílná řada celovečerních filmů, ke které se postupně přidala další díla.
     avg_rating: null
     image_url: https://upload.wikimedia.org/wikipedia/commons/6/6c/Star_Wars_Logo.svg
     director: 13
-    genres: []
+    genres:
+    - 1
+    - 5
+- model: films.movie
+  pk: 12
+  fields:
+    name: Annie Hall
+    year: 1977
+    slug: h
+    description: 'Annie Hall'' is as Woody Allen as Woody Allen gets – hilarious,
+      neurotic and occupied by the realisation that whatever happens, life is going
+      to trample all over you. It’s also one of the greatest romantic comedies every
+      made (with some of the funniest lines: ‘Don’t knock masturbation. It’s sex with
+      someone I love’).'
+    avg_rating: null
+    image_url: https://media.timeout.com/images/100464171/400/225/image.jpg 400w,https://media.timeout.com/images/100464171/750/422/image.jpg
+      750w,https://media.timeout.com/images/100464171/1024/576/image.jpg
+    director: 14
+    genres:
+    - 2
+- model: films.movie
+  pk: 13
+  fields:
+    name: The Ring
+    year: 2002
+    slug: q
+    description: Zní to jako další z neuvěřitelných příběhů. Existuje videopáska plná
+      obrazů jako vystřižených z těch nejtíživějších snů. Tam, kde byla přehrána,
+      zazní záhy telefon s varováním, že ten, kdo ji zhlédl, zemře přesně za sedm
+      dnů.
+    avg_rating: null
+    image_url: https://image.pmgstatic.com/cache/resized/w360/files/images/film/posters/159/935/159935151_94aa42.jpg
+    director: 15
+    genres:
+    - 3
+    - 6
 - model: films.comment
   pk: 1
   fields:
@@ -127,6 +208,14 @@
     text: Tenhle film vážně žeru
     rating: 42
     created_at: 2023-05-20 16:23:24.167549+00:00
+- model: films.comment
+  pk: 2
+  fields:
+    movie: 1
+    author: Milan
+    text: Miluju to je to randál jak sviňa
+    rating: 95
+    created_at: 2023-05-20 19:05:47.102542+00:00
 - model: films.genre
   pk: 1
   fields:
@@ -139,6 +228,30 @@
   pk: 3
   fields:
     name: Horor
+- model: films.genre
+  pk: 4
+  fields:
+    name: Drama
+- model: films.genre
+  pk: 5
+  fields:
+    name: Action
+- model: films.genre
+  pk: 6
+  fields:
+    name: Thriller
+- model: films.genre
+  pk: 7
+  fields:
+    name: Western
+- model: films.genre
+  pk: 8
+  fields:
+    name: Fantasy
+- model: films.genre
+  pk: 9
+  fields:
+    name: Krimi
 - model: films.director
   pk: 1
   fields:
@@ -230,6 +343,20 @@
     birth_year: 1944
     slug: q
     photo_url: https://upload.wikimedia.org/wikipedia/commons/a/a0/George_Lucas_cropped_2009.jpg
+- model: films.director
+  pk: 14
+  fields:
+    name: Woody Allen
+    birth_year: 1935
+    slug: l
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/8/89/Woody_Allen_Cannes_2016.jpg
+- model: films.director
+  pk: 15
+  fields:
+    name: Gore Verbinski
+    birth_year: 1964
+    slug: y
+    photo_url: https://upload.wikimedia.org/wikipedia/commons/b/b8/Gore_Verbinski_1.JPG
 - model: films.actor
   pk: 1
   fields:

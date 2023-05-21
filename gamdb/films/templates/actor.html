@@ -12,6 +12,6 @@
 <div class="container row-cols-2" style="display:flex; flex-direction: row;"> 
     <img src="{% if actor.photo_url %}{{actor.photo_url}}{% else %}https://place-hold.it/180x100/{% endif %}" alt="Card image cap"
     style="display: block;max-width: 500px;max-height: 350px;width: auto;height: auto; margin-right: 30px;">
-    <p>{{ actor.description|safe }}</p>
+    <p style="font-size: 1.5em">{{ actor.description|safe }}</p>
 </div>    
 {% endblock content %}
