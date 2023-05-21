@@ -63,6 +63,12 @@ def movie(request, id):
                 c.author = 'Anonym'
             c.save()
             # nastavit prazdny form
+
+            num = 0;
+            for comm in Comment.objects.filter(movie=m):
+                num += comm.rating
+            m.avg_rating = round(num/len(Comment.objects.filter(movie=m)))
+            m.save()
             f = CommentForm()
 
     context = {
