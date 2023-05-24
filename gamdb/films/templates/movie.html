@@ -3,7 +3,7 @@
 {% block content %}
 <div class="container" style="margin-bottom: 35px;">
     <h1>{{movie.name}}</h1>
-    <h3 style="margin-bottom:35px" class="container">average rating: {% if movie.avg_rating %}{{movie.avg_rating}}{% else %} no one rate this film yet {% endif %}</h3>
+    <h3 style="margin-bottom:35px" class="container">average rating: {% if movie.avg_rating %}{{movie.avg_rating}}{% else %} tento film ještě nemá hodnocení {% endif %}</h3>
 </div>
 <div class="container" style="display:flex; flex-direction: row;"> 
     <img src="{% if movie.image_url %}{{movie.image_url}}{% else %}https://place-hold.it/180x100/{% endif %}" alt="Card image cap" style="margin-right:25px">
